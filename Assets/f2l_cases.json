@@ -1,0 +1,3814 @@
+{
+  "version": 1,
+  "notation": "WCA/Singmaster",
+  "source": "https://speedcubedb.com/a/3x3/F2L",
+  "cases": [
+    {
+      "number": 1,
+      "name": "F2L 1",
+      "group": "Free Pairs",
+      "setupMoves": "F R' F' R",
+      "previewImage": "Assets/F2L/f2l_01.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R' F R F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "y' r' U' R U M'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y U F' L F L2 U L",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "F' r U r'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "F' L F L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "d R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y' U R U' R'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U L U' L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U2 L U2 L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "L' f U f'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U' r U B' U' B r'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U f R' f'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "r' U' R U M'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U2 R2 F R F' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "d L U' L'",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 2,
+      "name": "F2L 2",
+      "group": "Free Pairs",
+      "setupMoves": "R' F R F'",
+      "previewImage": "Assets/F2L/f2l_02.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "F R' F' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "y' U' R' U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U' F' U F",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y U' L' U L",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' L' U L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "L F' L' F",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "r U' r' F",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U r' U' F U F' r",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' f' L f",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "l U L' U' M'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "d' R' U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y' U' L' U L",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' R' U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R f' U' f",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U2 R' U2 R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U R' F' U F U' R",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 3,
+      "name": "F2L 3",
+      "group": "Free Pairs",
+      "setupMoves": "F' U F",
+      "previewImage": "Assets/F2L/f2l_03.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "F' U' F",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "y' R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "y L' U' L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "S U R U' R' S'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L' U' L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U2 R' F R U R' F' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "y' S U R U' R' S'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U S' F U' F' U S",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "y R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "f' L' f",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "f' r' U z",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U' R U B' U' B R'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U2 r' R' F R F' r",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U S f R' f' U S'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U f2 F' R' f' U S'",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "name": "F2L 4",
+      "group": "Free Pairs",
+      "setupMoves": "R U' R'",
+      "previewImage": "Assets/F2L/f2l_04.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "y' f R f'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "y F U F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y2 L U L'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "F U F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "y L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "S' L F' L' f",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U' M L' U L U' M'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "r B r'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U f R U R' U2 f' r x'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y2 R U R'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "f R f'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "y R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "y' L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U' r R2 U R U' M",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "name": "F2L 5",
+      "group": "Disconnected Pairs",
+      "setupMoves": "R U R' U2' R U' R' U",
+      "previewImage": "Assets/F2L/f2l_05.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' R U R' U2 R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "F2 L' U' L U F2",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U' R U R' U' R U2 R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U' R U R' U R' F R F'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U R' F r U' r' F' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U2 F R U R' U2 F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U l' U L U' L' U' l",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y' U' R U R' U2 R U' R'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' L U L' U2 L U' L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U' L U L' U' L U2 L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "y2 U' R U R' U2 R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U y' l' U L U' L' U' l",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' R' F R U R' U' F' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U r' U R U' R' U' r",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "R2 F' U' F U R2",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "d' R U R' U2 R U' R'",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 6,
+      "name": "F2L 6",
+      "group": "Disconnected Pairs",
+      "setupMoves": "F' U' F U2' F' U F U'",
+      "previewImage": "Assets/F2L/f2l_06.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' r U' R' U R U r'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "y' U R' U' R U2 R' U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "d R' U' R U2 R' U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U F' U' F U2 F' U F",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U L' U' L U2 L' U L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "F2 R U R' U' F2",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "R' F2 R U R' U' F2 U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U L' U' L U L' U2 L",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U r U' r' U' L U F L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "y U R' U' R U R' U2 R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U' l U' L' U L U l'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U L F' L' U' L U F L'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U R' U' R U2 R' U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U2 R' F' U' F U2 R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "y2 U L' U' L U2 L' U L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U' y r U' R' U R U r'",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 7,
+      "name": "F2L 7",
+      "group": "Disconnected Pairs",
+      "setupMoves": "R U R' U2' R U2' R' U",
+      "previewImage": "Assets/F2L/f2l_07.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' R U2 R' U' R U2 R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "M' U' M U2 r U' r'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U' R U2 R' U2 R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U' R U2 R' U R' F R F'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "F U R U2 R' U F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "d' L U2 L' U2 L U' L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U' F U2 R U' R' U F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "l U2 L2 U' L2 U' l'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' L U2 L' U2 L U' L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U' L U2 L' U' L U2 L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "M U' M' U2 l U' l'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "r U2 R2 U' R2 U' r'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "F R U R2 U' R F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "y' U' L U2 L' U2 L U' L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y U' R U2 R' U2 R U' R'",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 8,
+      "name": "F2L 8",
+      "group": "Disconnected Pairs",
+      "setupMoves": "r' U' R2 U' R2' U2' r",
+      "previewImage": "Assets/F2L/f2l_08.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "d R' U2 R U R' U2 R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "r' U2 R2 U R2 U r",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "y' U R' U2 R U2 R' U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y U L' U2 L U2 L' U L",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U L' U2 L U L' U2 L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U r' F2 r U2 r' F r",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U' R' U2 R U R' U R U2 L' U L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U L' U2 L U2 L' U L",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "l' U2 L2 U L2 U l",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "y U R' U2 R U R' U2 R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "d L' U2 L U2 L' U L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "f' L' U' L2 U L' f",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U R' U2 R U R' U2 R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U R' U2 R U2 R' U R",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 9,
+      "name": "F2L 9",
+      "group": "Disconnected Pairs",
+      "setupMoves": "F' U F U' R U R' U",
+      "previewImage": "Assets/F2L/f2l_09.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' R U' R' U F' U' F",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "F R U R' U' F' R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U' R U' R' d R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "d R' U' R U' R' U' R",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U L' U' L U' L' U' L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "F2 U R U' R' F2",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U2 L' U L U L' U' L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U' F U' F' U L' U' L",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "y U R' U' R U' R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U' L U' L' U f' L' f",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "d L' U' L U' L' U' L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y U2 R' U R U R' U' R",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U R' U' R U' R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R' U R U' R' U' R U2 R' U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U2 R' U R U R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U2 r U R' U R' U' R2 U' r'",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 10,
+      "name": "F2L 10",
+      "group": "Disconnected Pairs",
+      "setupMoves": "R U' R' U' R U' R' U",
+      "previewImage": "Assets/F2L/f2l_10.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' R U R' U R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U2 R U' R' U' R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "d R' U R d' R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y' U R' U R U' f R f'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U L' U L U' F U F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "F U' R U R' U2 F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "d' L U L' U L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y' U' R U R' U R U R'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' L U L' U L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U2 L U' L' U' L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "L U' L' U L U L' U2 L U' L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y2 U' R U R' U R U R'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U R' U R U' f R f'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R2 U' F' U F R2",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "y U' R U R' U R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "d' R U R' U R U R'",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 11,
+      "name": "F2L 11",
+      "group": "Connected Pairs",
+      "setupMoves": "F' U F U' R U2' R' U",
+      "previewImage": "Assets/F2L/f2l_11.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' R U2 R' U F' U' F",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "y' R U2 R2 U' R2 U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U' R U2 R' d R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "F' U L' U2 L U2 F",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L' U L U' L' U L U2 L' U L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "L U2 L2 U' L2 U' L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "F U R U' R' U R U' R' U F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U' F U2 F' U r' F' r",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' L U2 L' U f' L' f",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U' L U2 L' d L' U' L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "L U2 L' U' l U' l' U2 l U l'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y R U2 R2 U' R2 U' R'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R' U R U' R' U R U2 R' U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R U2 R2 U' R2 U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "R' U R U' R' U R U R' U2 R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "d' R U2 R' U F' U' F",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 12,
+      "name": "F2L 12",
+      "group": "Connected Pairs",
+      "setupMoves": "R U R' U2' R U R' U' R U R'",
+      "previewImage": "Assets/F2L/f2l_12.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R U' R' U R U' R' U2 R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R' U2 R2 U R2 U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U R U' R' U' R U R' U' R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "R' D' R U2 R' D R2 U R'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U L' U2 L U' F U F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U L' U2 L d' L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "L' U2 L U l' U l U2 l' U' l",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y' R' U2 R2 U R2 U R",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L' U2 L2 U L2 U L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "d L' U2 L U' F U F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U2 R' U2 R U2 L U L' U2 R' U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "L U' L' U L U' L' U2 L U' L'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U R' U2 R U' f R f'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "f R' U R2 U' R2 f'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U R' U2 R d' R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y R U' R' U R U' R' U' R U2 R'",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 13,
+      "name": "F2L 13",
+      "group": "Connected Pairs",
+      "setupMoves": "r U2' R' U R U' R' U M",
+      "previewImage": "Assets/F2L/f2l_13.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "y' U R' U R U' R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "M' U' R U R' U2 R U' r'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "d R' U R U' R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "R U' R' U R' F R F' R U' R'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U L' U L U' L' U' L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "y' R U' R' U2 R U' R' U F' U F",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U L' U L U' L' U L U L' U L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U L F' L2 U' L U L F L'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "d L' U L U' L' U' L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "y U R' U R U' R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U f' L f U' f' L' f",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U L U' L F' L2 U' L U F U L'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U R' U R U' R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U R' U R U' R' U R U R' U R",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 14,
+      "name": "F2L 14",
+      "group": "Connected Pairs",
+      "setupMoves": "R U' R' U' R U R' U",
+      "previewImage": "Assets/F2L/f2l_14.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' R U' R' U R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R U2 R' U2 R U R' U2 R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U' R2 D R' U R D' R2",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U2 R2 U R' U R U2 R2",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "d' L U' L' U L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "y U' L U' L' U L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "y' U' R U' R' U R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "M' U L' U' L U2 L' U l",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' L U' L' U L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U' L U' L' U L U' L' U' L U' L'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "y U' R U' R' U R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "d' R U' R' U R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "y' U' L U' L' U L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U' f R' f' U f R f'",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 15,
+      "name": "F2L 15",
+      "group": "Connected Pairs",
+      "setupMoves": "R U R' U' R U R' U2' R U' R'",
+      "previewImage": "Assets/F2L/f2l_15.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R' D' R U' R' D R U R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "M U r U' r' U' M'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "R U R' U2 R U' R' U R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "F' U F U2 R U R'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L' U L U2 F U F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "F U2 R U R' U F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "L' U L U2 y L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U L' l U' l' U l U l' U L",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L U L' U2 L U' L' U L U' L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "L U2 L' U L U L' U L U' L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "M' U l U' l' U' M",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "f' L f U2 L U L'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R' U R U2 f R f'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R2 F R F' R U R' U2 R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "R' U R U' d' R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "R2 F R F' R U2 R' U R",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 16,
+      "name": "F2L 16",
+      "group": "Connected Pairs",
+      "setupMoves": "F' U F U2' R U R'",
+      "previewImage": "Assets/F2L/f2l_16.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R U' R' U2 F' U' F",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R U' R' U2 y' R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U M' U R U' r' U' R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U F U R U' R' F' R U R'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "F U' R U' R' U2 F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "L' U' L U2 L' U L U' L' U L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "L' U2 L U' L' U' L U' L' U L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "M U' l' U l U M'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L U' L' U2 f' L' f",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "L2 F' L' F L' U2 L U' L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "L U' L' y U2 R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "L U' L' U' d' R' U' R",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R' U' R U2 R' U R U' R' U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "M' U' r' U r U M",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U2 R' U' R U R D R' U' R D' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "F R' F' R U2 R' U' R2 U' R'",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 17,
+      "name": "F2L 17",
+      "group": "Connected Pairs",
+      "setupMoves": "R U' R' U R U2' R'",
+      "previewImage": "Assets/F2L/f2l_17.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R U2 R' U' R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "y2 L U2 L' U' L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "R U R' U' R U2 R' U2 R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y L F' L' F L' U L U' L' U L",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "y L U2 L' U' L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "L F' L' F L' U L U' L' U L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "L' U2 L U2 l' U L U' L' U' l",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y' R U2 R' U' R U R'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L U2 L' U' L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "L U L' U' L U2 L' U2 L U L'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "y' L U2 L' U' L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "y R U2 R' U' R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "R' U2 F R U R' U' F' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "l U' R' U l' U R U' R' U R",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 18,
+      "name": "F2L 18",
+      "group": "Connected Pairs",
+      "setupMoves": "R U R' U' R U R' F R' F' R",
+      "previewImage": "Assets/F2L/f2l_18.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "y' R' U2 R U R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "y L' U2 L U L' U' L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "F' U2 F U F' U' F",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "R' F R F' R U' R' U R U' R'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L' U2 L U L' U' L",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "y R' U2 R U R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U F U R U' R' F' L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "L U2 F' L' U' L U F L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "L U2 L' U2 l U' L' U L U l'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R' U2 R U R' U' R",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "name": "F2L 19",
+      "group": "Disconnected Pairs",
+      "setupMoves": "R U R' U' R U2' R' U'",
+      "previewImage": "Assets/F2L/f2l_19.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U R U2 R' U R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U R U2 R2 F R F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "d f R2 f' U f R' f'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "R U' R' U R U' R' U R U R'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U L' U L2 F' L' F L' U L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "d R U2 R' U R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "y' U R U2 R' U R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y U L U2 L' U L U' L'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U L U2 L' U L U' L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "L U' L' U L U' L' U L U L'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "y U R U2 R' U R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U R' F' U2 F R U R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U2 f R2 U R2 U' R f'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U2 F' U' F R' U' R S R S'",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "name": "F2L 20",
+      "group": "Disconnected Pairs",
+      "setupMoves": "R U R' F R' F' R2' U R' U",
+      "previewImage": "Assets/F2L/f2l_20.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "y' U' R' U2 R U' R' U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U' R U' R2 F R F' R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "y U' L' U2 L U' L' U L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U' F' U2 F U' F' U F",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' L' U2 L U' L' U L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "L' U L U' L' U L U' L' U' L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U' L' U2 L2 F' L' F",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "y U' R' U2 R U' R' U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U' L F U2 F' L' U' L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "d' R' U2 R U' R' U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U' L U L' U l U' l' U2 l U l'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' R' U2 R U' R' U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R' U R U' R' U R U' R' U' R",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "name": "F2L 21",
+      "group": "Disconnected Pairs",
+      "setupMoves": "R U' R' U2' R U R'",
+      "previewImage": "Assets/F2L/f2l_21.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U2 R U R' U R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R U' R' U2 R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "R B U2 B' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y' f R' f' U2 f R f'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "l' U l U2 l' U' l",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "F R U2 R' F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "y U2 L U L' U L U' L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y L U' L' U2 L U L'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L U' L' U2 L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U2 L U L' U L U' L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "l U' L' U2 L U l'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "L F U2 F' L'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "r' U r U2 r' U' r",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "y' U2 L U L' U L U' L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U2 R' U' R S R f' U' F",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U f U R U' R f'",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 22,
+      "name": "F2L 22",
+      "group": "Disconnected Pairs",
+      "setupMoves": "F' L' U2' L F",
+      "previewImage": "Assets/F2L/f2l_22.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "r U' r' U2 r U r'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "F' L' U2 L F",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "y' U2 R' U' R U' R' U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y U2 L' U' L U' L' U L",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L' U L U2 L' U' L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U2 L' U' L U' L' U L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "r' U' F2 U r",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U' L' U L U2 L' U L U' L' U L",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "l U' l' U2 l U l'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "f' U' L2 U f",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "y R' U R U2 R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y U2 R' U' R U' R' U R",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R' U R U2 R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U2 R' U' R U' R' U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "R' F' U2 F R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U' R' U R U2 R' U R U' R' U R",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 23,
+      "name": "F2L 23",
+      "group": "Connected Pairs",
+      "setupMoves": "R U' R' U R U' R' U2' R U' R'",
+      "previewImage": "Assets/F2L/f2l_23.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U R U' R' U' R U' R' U R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R U R' U2 R U R' U' R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U2 R2 U2 R' U' R U' R2",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "R U' R2 D' R U2 R' D R",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "F' U' L' U L F L' U L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U L' U' L2 F' L' F L' U L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "F U' R U R' U R U2 R' F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U' F R U' R' F' L' U' L",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U L U' L' U' L U' L' U L U' L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "L U L' U2 L U L' U' L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "L' U' L U' L' U2 L2 U2 L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U2 L2 U2 L' U' L U' L2",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U R' F R' F' R2 U' R' U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U2 l' U' L U' L' U2 B' l",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "R' F' U' F U2 R U' R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U R' U' F' U F R U' R' U R",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 24,
+      "name": "F2L 24",
+      "group": "Connected Pairs",
+      "setupMoves": "R U R' F R U R' U' F'",
+      "previewImage": "Assets/F2L/f2l_24.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "F U R U' R' F' R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "y' R' U' R U2 R' U' R U R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U' R U R2 F R F' R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y U' L' U L U L' U L U' L' U L",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' L' U L U L' U L U' L' U L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U' F' r U r' U' L' U' L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "L' U L U L' U' L U2 L' U' L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "F U' R U2 R' U R U2 R' F'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U2 r U R' U R U2 B r'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U2 F U R U' R' F' U2 L U' L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "y U' R' U R U R' U R U' R' U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U2 F U R U' R' F' U' L U2 L'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R' U' R U2 R' U' R U R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U2 R2 U2 R U R' U R2",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U' R' U R U R' U R U' R' U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "R U R' U R U2 R2 U2 R",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 25,
+      "name": "F2L 25",
+      "group": "Corner In Slot",
+      "setupMoves": "F' R U R' U' R' F R",
+      "previewImage": "Assets/F2L/f2l_25.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' R' F R F' R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R' F' R U R U' R' F",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U' F' R U R' U' R' F R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U' F' U F U R U' R'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' L' U L F' r U r'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U' L' U L d R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U' L' U L F' L F L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U' L' U L y U L U' L'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L U' L' U' L U' L' U L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R D' R' U' R D R' L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U' f' L' f U L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "L' U' L' U' L' U L U L",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' R' U M U' R U M'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R' S' R U' R' S R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U' R' U R r' U' R U M'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "d' R' F R F' R U R'",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 26,
+      "name": "F2L 26",
+      "group": "Corner In Slot",
+      "setupMoves": "F' U' F U R U R' U'",
+      "previewImage": "Assets/F2L/f2l_26.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U R U' R' F R' F' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R S' R' U R S R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U R U R' U' y L' U' L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U R U' R' U' F' U F",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "r U r' U' r' F r F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U L F' L' F L' U' L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U F L' U' L U L F' L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U F r' F' r U r U' r'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L S L' U L S' L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "F R2 u R u' R2 F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U L U' M U L' U' M'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U' R u R' U R U' u' R'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U f R f' U' R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R' U R U R' U R U' R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "R U R U R U' R' U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U' R S2 R' U' R S2 R'",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 27,
+      "name": "F2L 27",
+      "group": "Corner In Slot",
+      "setupMoves": "R U R' U' R U R'",
+      "previewImage": "Assets/F2L/f2l_27.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R U' R' U R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "F' U' F U2 R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "y' f R' f' U f R' f'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y' f R' f' r' U' R U M'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L' U' L U F' r U r'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "L' U' L U F' L F L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "y' R U' R' U R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U' F R U2 R' U F'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L U' L' U L U' L'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R' U2 R' F R F' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R' U' R U r' U' R U M'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "y R U' R' U R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "R' U' R U f' U f R'",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 28,
+      "name": "F2L 28",
+      "group": "Corner In Slot",
+      "setupMoves": "R' F R F' U R U' R'",
+      "previewImage": "Assets/F2L/f2l_28.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R U R' U' F R' F' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "y L' U L U' L' U L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "F' U F U' F' U F",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y' R' U R U' R' U R",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L' U L U' L' U L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "L' U L2 F' L' F",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L U2 L F' L' F L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "y R' U R U' R' U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "L U L' U' l U L' U' M'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "L U2 L' U f' L f",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R' U R U' R' U R",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 29,
+      "name": "F2L 29",
+      "group": "Corner In Slot",
+      "setupMoves": "F R' F' R F R' F' R",
+      "previewImage": "Assets/F2L/f2l_29.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R' F R F' U R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "y L' U' L U L' U' L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "y' R' U' R U R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "R' F R F' R' F R F'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L' U' L U L' U' L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U L' U2 L U2 L' U' L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U F' L F L2 U' L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "F' L F L' F' L F L'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "y R' U' R U R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U2 L U' L' f' L' f",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "f' L' f U f' L' f",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "x' U' F' U F U' F' U x",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R' U' R U R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U R' U2 R U2 R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U f' U f R2 U' R",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 30,
+      "name": "F2L 30",
+      "group": "Corner In Slot",
+      "setupMoves": "R U' R' U R U' R'",
+      "previewImage": "Assets/F2L/f2l_30.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R U R' U' R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U' R U2 R' U2 R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U' F R' F' R2 U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U2 F' U F R U R'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L F' L' F U' L' U L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "y' R U R' U' R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U' F U' R U2 R' F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y L U L' U' L U L'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L U L' U' L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U' L U2 L' U2 L U L'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "y' L U L' U' L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "f R f' U' f R f'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U2 R' U R f R f'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y R U R' U' R U R'",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 31,
+      "name": "F2L 31",
+      "group": "Edge In Slot",
+      "setupMoves": "R U R' F R' F' R U",
+      "previewImage": "Assets/F2L/f2l_31.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' R' F R F' R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R U' R' U y' R' U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "F' U F R U2 R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "R U' R' U y L' U L",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U L F' L' F L' U L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "L' U L U' y L U' L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "L' U L F U2 F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U' F' L F L' F U' F'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L U' L F' L' F L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "f' L f U' L U' L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "B' U B L U2 L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "L U2 L' U' l U L' U' M'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R' U R' F R F' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R' U R f R2 f'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "R' U R y R U2 R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "f R' f' U R' U R",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 32,
+      "name": "F2L 32",
+      "group": "Edge In Slot",
+      "setupMoves": "R U' R' U R U' R' U R U' R'",
+      "previewImage": "Assets/F2L/f2l_32.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U R U' R' U R U' R' U R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R U R' U' R U R' U' R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "R2 U R2 U R2 U2 R2",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U' F R' F' R U' R U R'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' L' U L U' L' U L U' L' U L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U L' U L U' L' U2 L U L' U' L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U2 F U' R U R' U F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "L' U' L U L' U' L U L' U' L",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L U L' U' L U L' U' L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U L U' L' U L U' L' U L U' L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "L2 U L2 U L2 U2 L2",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U' L U' L' U L U2 L' U' L U L'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' R' U R U' R' U R U' R' U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R' U' R U R' U' R U R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U2 f R' U R U' R f'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "R2 U' R2 U' R2 U2 R2",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 33,
+      "name": "F2L 33",
+      "group": "Edge In Slot",
+      "setupMoves": "R U R' U2' R U R' U",
+      "previewImage": "Assets/F2L/f2l_33.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' R U' R' U2 R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "y R' D R U' R' D' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "R U R' U' R U' R' U R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U' R U' R' U' R U2 R'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R' D R U' R' D' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U L' U2 L U' L' U' L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U' L D L' U L D' L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U' L' U' L U2 L' U' L",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' L U' L' U2 L U' L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U' L U' L' U' L U2 L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "D' R D R' U R D' R' D",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' R D R' U R D' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U' R' U' R U2 R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U R' U2 R U' R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U R D R' U' R D' R'",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 34,
+      "name": "F2L 34",
+      "group": "Edge In Slot",
+      "setupMoves": "R U' R' U2' R U' R' U'",
+      "previewImage": "Assets/F2L/f2l_34.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U R U R' U2 R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U' R U2 R' U R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U R' D' R U' R' D R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y U L' U L U2 L' U L",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U L' U L U2 L' U L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U L' U L U L' U2 L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "L' U' L U L' U L U' L' U L",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U L U L' U2 L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U L' D' L U' L' D L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U' L U2 L' U L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U2 R D' R' U' R D R'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U R' U R U R' U2 R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U f R2 U R2 U' f'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U R2 F R F' R U' R' U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U R' U R U2 R' U R",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 35,
+      "name": "F2L 35",
+      "group": "Edge In Slot",
+      "setupMoves": "F' U F U' R U' R' U",
+      "previewImage": "Assets/F2L/f2l_35.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' R U R' U F' U' F",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U' R U R' d R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U2 R U R' F R' F' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U' R U R' U y' R' U' R",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U2 F U F' U' L' U L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U' F R' F R F' U F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U2 L F' L' F U2 L' U' L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U' F U F' U L' U' L",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' L U L' U f' L' f",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U2 L U L' U' L F U F' L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "L U L' y R' U' R U R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U2 L U M U L' U' M'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U' f R f' U R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R' F R' F' R U R U' R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U2 f R f' U' R' U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U' R' F' U F U' R U R' U' R",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 36,
+      "name": "F2L 36",
+      "group": "Edge In Slot",
+      "setupMoves": "R U' R' U2' F R' F' R U2'",
+      "previewImage": "Assets/F2L/f2l_36.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U F' U' F U' R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U2 R' F R F' U2 R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "R2 u R U R' U' u' R' U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y U L' U' L U' y' R U R'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U L' U' L d' L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U2 L' U' L F' L F L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U L' U' L U' F U F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U2 L' U L U F U F'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U f' L' f U' L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U2 f' L' f U L U' L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "L F' L F L' U' L' U L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "y U R' U' R U' f R f'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "U R' U' R U' f R f'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "U2 R' U' R U R' F' U' F R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "U R' U' R y U' R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "U R' U' R U' y R U R'",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 37,
+      "name": "F2L 37",
+      "group": "F2L",
+      "setupMoves": "R U' R U2' F R2' F' U2' R2'",
+      "previewImage": "Assets/F2L/f2l_37.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R2 U2 F R2 F' U2 R' U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R' F R F' R U' R' U R U' R' U2 R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "R U R' U2 R U2 R' U y' R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "R U2 R' U R U2 R' U F' U' F",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L2 U2 F' L2 F U2 L U' L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "L' U2 L U' L' U2 L U' F U F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "L' U' L U2 L' U2 L U' y' R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "R' F R L' U' L U' R' F R L' U' L",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L U' L' l' U2 L2 U L2 U l",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "f' L f U' L U2 L' U2 L U' L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "L U2 L' U L U2 L' U f' L' f",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "L' f U f' L' U2 L2 U L2 U L",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R' U R r U2 R2 U' R2 U' r'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R' U2 R U' R' U2 R U' f R f'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "R' U R f R U R2 U' R f'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "R' U' R U2 R' U2 R U' f R f'",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 38,
+      "name": "F2L 38",
+      "group": "F2L",
+      "setupMoves": "R U' R' U R U2' R' U R U' R'",
+      "previewImage": "Assets/F2L/f2l_38.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R U' R' U' R U R' U2 R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R U R' U' R U2 R' U' R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "R2 U2 R' U' R U' R' U2 R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "R U' R' U' R U R' U' R U2 R'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L' U L U' L' U2 L U' L' U L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "F R U2 R' U' R U R' U2 F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "L' U2 L' U' L U' L' U2 L2",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "F U' R U2 R' U' R U2 R' F'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L U L' U' L U2 L' U' L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "L2 U2 L' U' L U' L' U2 L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "L U' L' U' L U L' U' L U2 L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "L U' L' U' L U L' U2 L U' L'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R' U' R U2 R' U R U' R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R' U R U' R' U2 R U' R' U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "R' U2 R' U' R U' R' U2 R2",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 39,
+      "name": "F2L 39",
+      "group": "F2L",
+      "setupMoves": "R U' R' U' R U R' U2' R U' R'",
+      "previewImage": "Assets/F2L/f2l_39.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R U' R' U R U2 R' U R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R U2 R U R' U R U2 R2",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "R U R' U2 R U' R' U R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "R U2 R' U R U' R' U R U R'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L' U' L U L' U2 L U L' U' L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "F' L F L2 U2 L U L' U' L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "F U2 R U' R' U R U2 R' F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "L' U L U L' U' L U2 L' U L",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L U L' U2 L U' L' U L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "L U' L' U L U2 L' U L U' L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "L U2 L' U L U' L' U L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "L U2 L U L' U L U2 L2",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R' U' R U R' U2 R U R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R' U R U R' U' R U2 R' U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "f R2 U R' U' F R' f' U F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "R2 U2 R U R' U R U2 R",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 40,
+      "name": "F2L 40",
+      "group": "F2L",
+      "setupMoves": "R U R' F U R U' R' F' R U R'",
+      "previewImage": "Assets/F2L/f2l_40.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "r U' r' U2 r U r' R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "F' L' U2 L F R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "R U' R' F R U R' U' F' R U' R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "R U' R' U' R U' R' U y' R' U' R",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "L' U L F R U2 R' F'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "L' U L l' U l U2 l' U' l",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "L' U L R' F R U2 R' F' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "L' U L U2 y L U L' U L U' L'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "l U' l' U2 l U l' L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "f' L f U2 L U L' U L U' L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "f' L f U2 L U L' U2 L U2 L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "f' L f L F U2 F' L'",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R' U R r' U r U2 r' U' r",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R' U R f U R2 U' f'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "R2 F' U' F U R U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "R' F' U2 F R f R f'",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    },
+    {
+      "number": 41,
+      "name": "F2L 41",
+      "group": "F2L",
+      "setupMoves": "R F U R U' R' F' U' R'",
+      "previewImage": "Assets/F2L/f2l_41.png",
+      "algorithmsBySlot": {
+        "FR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "R U' R' r U' r' U2 r U r'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R U' R' F' L' U2 L F",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "R U R' U' y M U' R' F R U M'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "R U R' U' R U' R' U2 y' R' U' R",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "FL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "l' U l U2 l' U' l L' U' L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "L' U L U L' U L U' y' R U R'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "F R U2 R' F' L' U' L",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "R' F R U2 R' F' R L' U' L",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BL": [
+          {
+            "name": "Algorithm 1",
+            "moves": "f' L f U' L U L' U L U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "L2 F U F' U' L' U L'",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "L F U2 F' L' f' L' f",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "L U' L' d' U' R' U' R U' R' U R",
+            "source": "SpeedCubeDB"
+          }
+        ],
+        "BR": [
+          {
+            "name": "Algorithm 1",
+            "moves": "r' U r U2 r' U' r R' U' R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 2",
+            "moves": "R' U R' U' F' U F R2",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 3",
+            "moves": "f R' f' U2 R' U' R U' R' U R",
+            "source": "SpeedCubeDB"
+          },
+          {
+            "name": "Algorithm 4",
+            "moves": "f R' f' U2 R' U' R U2 R' U2 R",
+            "source": "SpeedCubeDB"
+          }
+        ]
+      }
+    }
+  ]
+}

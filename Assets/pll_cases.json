@@ -1,0 +1,300 @@
+{
+  "version": 1,
+  "notation": "WCA/Singmaster",
+  "cases": [
+    {
+      "number": 1,
+      "name": "Aa Perm",
+      "group": "Adjacent Corner Swap",
+      "setupMoves": "x R2' D2' R U R' D2' R U' R x'",
+      "previewImage": "Assets/PLL/pll_01.png",
+      "algorithms": [
+        {
+          "name": "Primary",
+          "moves": "x R' U R' D2 R U' R' D2 R2 x'",
+          "source": "user-provided"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Ab Perm",
+      "group": "Adjacent Corner Swap",
+      "setupMoves": "x R' U R' D2' R U' R' D2' R2' x'",
+      "previewImage": "Assets/PLL/pll_02.png",
+      "algorithms": [
+        {
+          "name": "Primary",
+          "moves": "x R2 D2 R U R' D2 R U' R x'",
+          "source": "user-provided"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "E Perm",
+      "group": "Diagonal Corner Swap",
+      "setupMoves": "x' D R U R' D' R U' R' D R U' R' D' R U R' x",
+      "previewImage": "Assets/PLL/pll_03.png",
+      "algorithms": [
+        {
+          "name": "Primary",
+          "moves": "x' R U' R' D R U R' D' R U R' D R U' R' D' x",
+          "source": "user-provided"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "F Perm",
+      "group": "Adjacent Corner Swap",
+      "setupMoves": "R' U' R U' R' U R U R2' F' R U R U' R' F U R",
+      "previewImage": "Assets/PLL/pll_04.png",
+      "algorithms": [
+        {
+          "name": "Primary",
+          "moves": "R' U' F' R U R' U' R' F R2 U' R' U' R U R' U R",
+          "source": "user-provided"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Ga Perm",
+      "group": "Adjacent Corner Swap",
+      "setupMoves": "R' U' R D' U R2' U R' U R U' R U' R2' D",
+      "previewImage": "Assets/PLL/pll_05.png",
+      "algorithms": [
+        {
+          "name": "Primary",
+          "moves": "R2 U R' U R' U' R U' R2 U' D R' U R D'",
+          "source": "user-provided"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Gb Perm",
+      "group": "Adjacent Corner Swap",
+      "setupMoves": "R2' U R' U R' U' R U' R2' D U' R' U R D'",
+      "previewImage": "Assets/PLL/pll_06.png",
+      "algorithms": [
+        {
+          "name": "Primary",
+          "moves": "R' U' R U D' R2 U R' U R U' R U' R2 D",
+          "source": "user-provided"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "name": "Gc Perm",
+      "group": "Adjacent Corner Swap",
+      "setupMoves": "D' R U R' U' D R2' U' R U' R' U R' U R2'",
+      "previewImage": "Assets/PLL/pll_07.png",
+      "algorithms": [
+        {
+          "name": "Primary",
+          "moves": "R2 U' R U' R U R' U R2 U D' R U' R' D",
+          "source": "user-provided"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "name": "Gd Perm",
+      "group": "Adjacent Corner Swap",
+      "setupMoves": "R2' U' R U' R U R' U R2' D' U R U' R' D",
+      "previewImage": "Assets/PLL/pll_08.png",
+      "algorithms": [
+        {
+          "name": "Primary",
+          "moves": "R U R' U' D R2 U' R U' R' U R' U R2 D'",
+          "source": "user-provided"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "name": "H Perm",
+      "group": "Edges Only",
+      "setupMoves": "M2' U' M2' U2' M2' U' M2'",
+      "previewImage": "Assets/PLL/pll_09.png",
+      "algorithms": [
+        {
+          "name": "Primary",
+          "moves": "M2' U' M2' U2' M2' U' M2'",
+          "source": "user-provided"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "name": "Ja Perm",
+      "group": "Adjacent Corner Swap",
+      "setupMoves": "L' R' U2' R U R' U2' L U' R U",
+      "previewImage": "Assets/PLL/pll_10.png",
+      "algorithms": [
+        {
+          "name": "Primary",
+          "moves": "x R2' F R F' R U2 r' U r U2",
+          "source": "user-provided"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Jb Perm",
+      "group": "Adjacent Corner Swap",
+      "setupMoves": "R U R2' F' R U R U' R' F R U' R'",
+      "previewImage": "Assets/PLL/pll_11.png",
+      "algorithms": [
+        {
+          "name": "Primary",
+          "moves": "R U R' F' R U R' U' R' F R2 U' R'",
+          "source": "user-provided"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "name": "Na Perm",
+      "group": "Diagonal Corner Swap",
+      "setupMoves": "R U R' U2' R U R2' F' R U R U' R' F R U' R' U' R U' R'",
+      "previewImage": "Assets/PLL/pll_12.png",
+      "algorithms": [
+        {
+          "name": "Primary",
+          "moves": "R U R' U R U R' F' R U R' U' R' F R2 U' R' U2 R U' R''",
+          "source": "user-provided"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "name": "Nb Perm",
+      "group": "Diagonal Corner Swap",
+      "setupMoves": "F r' F' r U r U' r2' D' F r U r' F' D r",
+      "previewImage": "Assets/PLL/pll_13.png",
+      "algorithms": [
+        {
+          "name": "Primary",
+          "moves": "R' U R U' R' F' U' F R U R' F R' F' R U' R",
+          "source": "user-provided"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "name": "Ra Perm",
+      "group": "Adjacent Corner Swap",
+      "setupMoves": "R U2' R D R' U R D' R' U' R' U R U R'",
+      "previewImage": "Assets/PLL/pll_14.png",
+      "algorithms": [
+        {
+          "name": "Primary",
+          "moves": "R U' R' U' R U R D R' U' R D' R' U2 R'",
+          "source": "user-provided"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "name": "Rb Perm",
+      "group": "Adjacent Corner Swap",
+      "setupMoves": "R' U R U R' U' R' D' R U R' D R U2' R U",
+      "previewImage": "Assets/PLL/pll_15.png",
+      "algorithms": [
+        {
+          "name": "Primary",
+          "moves": "R2 F R U R U' R' F' R U2 R' U2 R",
+          "source": "user-provided"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "name": "T Perm",
+      "group": "Adjacent Corner Swap",
+      "setupMoves": "F R U' R' U R U R2' F' R U R U' R'",
+      "previewImage": "Assets/PLL/pll_16.png",
+      "algorithms": [
+        {
+          "name": "Primary",
+          "moves": "R U R' U' R' F R2 U' R' U' R U R' F'",
+          "source": "user-provided"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "name": "Ua Perm",
+      "group": "Edges Only",
+      "setupMoves": "M2' U' M' U2' M U' M2'",
+      "previewImage": "Assets/PLL/pll_17.png",
+      "algorithms": [
+        {
+          "name": "Primary",
+          "moves": "y2 M2' U M U2' M' U M2' y2",
+          "source": "user-provided"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "name": "Ub Perm",
+      "group": "Edges Only",
+      "setupMoves": "M2' U M' U2' M U M2'",
+      "previewImage": "Assets/PLL/pll_18.png",
+      "algorithms": [
+        {
+          "name": "Primary",
+          "moves": "y2 M2' U' M U2' M' U' M2' y2",
+          "source": "user-provided"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "name": "V Perm",
+      "group": "Diagonal Corner Swap",
+      "setupMoves": "D2' R' U R D' R2' U' R' U R' U R' D' R U2' R'",
+      "previewImage": "Assets/PLL/pll_19.png",
+      "algorithms": [
+        {
+          "name": "Primary",
+          "moves": "R' U R' U' y R' F' R2 U' R' U R' F R F",
+          "source": "user-provided"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "name": "Y Perm",
+      "group": "Diagonal Corner Swap",
+      "setupMoves": "F R' F' R U R U' R' F R U' R' U R U R' F'",
+      "previewImage": "Assets/PLL/pll_20.png",
+      "algorithms": [
+        {
+          "name": "Primary",
+          "moves": "F R U' R' U' R U R' F' R U R' U' R' F R F'",
+          "source": "user-provided"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "name": "Z Perm",
+      "group": "Edges Only",
+      "setupMoves": "M U2' M2' U2' M U' M2' U' M2' U2",
+      "previewImage": "Assets/PLL/pll_21.png",
+      "algorithms": [
+        {
+          "name": "Primary",
+          "moves": "M U' M2' U' M2' U' M U2' M2'",
+          "source": "user-provided"
+        }
+      ]
+    }
+  ]
+}

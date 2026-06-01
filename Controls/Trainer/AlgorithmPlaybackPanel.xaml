@@ -1,0 +1,71 @@
+﻿<UserControl x:Class="CubeForge.Controls.AlgorithmPlaybackPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="Transparent">
+    <StackPanel>
+        <StackPanel>
+            <TextBlock x:Name="AlgorithmCaseTitleTextBlock"
+                       Text="Select a case"
+                       Foreground="White"
+                       FontSize="22"
+                       FontWeight="SemiBold"
+                       Margin="0,0,0,4" />
+
+            <TextBlock x:Name="AlgorithmCaseGroupTextBlock"
+                       Text="Choose a case from the list on the right."
+                       Foreground="#AFAFAF"
+                       FontSize="13"
+                       Margin="0,0,0,12" />
+        </StackPanel>
+
+        <Border Background="#121212"
+                BorderBrush="#2A2A2A"
+                BorderThickness="1"
+                CornerRadius="10"
+                Padding="12"
+                Margin="0,0,0,10">
+            <TextBlock x:Name="AlgorithmMovesTextBlock"
+                       Text="Algorithm will appear here."
+                       Foreground="#FFFFFF"
+                       FontSize="16"
+                       TextWrapping="Wrap" />
+        </Border>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button x:Name="ResetAlgorithmCaseButton"
+                    Grid.Column="0"
+                    Content="Reset Case"
+                    Click="OnResetClicked"
+                    Style="{StaticResource MaterialDesignOutlinedButton}"
+                    Margin="0,0,6,0" />
+
+            <Button x:Name="ApplyFullAlgorithmButton"
+                    Grid.Column="1"
+                    Content="Apply Algorithm"
+                    Click="OnApplyClicked"
+                    Style="{StaticResource PrimaryButtonStyle}"
+                    Margin="6,0,6,0" />
+
+            <Button x:Name="PreviousAlgorithmMoveButton"
+                    Grid.Column="2"
+                    Content="Prev"
+                    Click="OnPreviousMoveClick"
+                    Style="{StaticResource MaterialDesignOutlinedButton}"
+                    Margin="6,0,4,0" />
+
+            <Button x:Name="NextAlgorithmMoveButton"
+                    Grid.Column="3"
+                    Content="Next"
+                    Click="OnNextMoveClick"
+                    Style="{StaticResource MaterialDesignOutlinedButton}"
+                    Margin="4,0,0,0" />
+        </Grid>
+    </StackPanel>
+</UserControl>

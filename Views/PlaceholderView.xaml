@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="CubeForge.Views.PlaceholderView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="#050505">
+
+    <Grid>
+        <TextBlock x:Name="MessageTextBlock"
+                   Text="Coming soon."
+                   Foreground="White"
+                   FontSize="24"
+                   FontWeight="SemiBold"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center" />
+    </Grid>
+</UserControl>

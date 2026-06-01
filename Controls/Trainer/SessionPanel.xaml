@@ -1,0 +1,329 @@
+<UserControl x:Class="CubeForge.Controls.SessionPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="Transparent">
+
+    <UserControl.Resources>
+        <Style x:Key="StatsCard" TargetType="{x:Type Border}">
+            <Setter Property="Background" Value="#050505" />
+            <Setter Property="BorderBrush" Value="#2A2A2A" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="CornerRadius" Value="12" />
+            <Setter Property="Padding" Value="12" />
+            <Setter Property="Margin" Value="0,0,0,14" />
+        </Style>
+
+        <Style x:Key="StatsLabel" TargetType="{x:Type TextBlock}">
+            <Setter Property="Foreground" Value="#AFAFAF" />
+            <Setter Property="FontSize" Value="12" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+        </Style>
+
+        <Style x:Key="StatsValue" TargetType="{x:Type TextBlock}">
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="Margin" Value="0,3,0,0" />
+        </Style>
+    </UserControl.Resources>
+
+    <StackPanel>
+        <TextBlock x:Name="TrainerPanelHeaderTextBlock"
+                   Text="OLL Trainer"
+                   FontSize="24"
+                   FontWeight="SemiBold"
+                   Margin="0,0,0,4"
+                   Foreground="White" />
+
+        <TextBlock x:Name="TrainerPanelDescriptionTextBlock"
+                   Text="Practice recognizing and solving OLL cases with generated scrambles, timed solves, and focused last layer training."
+                   Foreground="#AFAFAF"
+                   FontSize="14"
+                   TextWrapping="Wrap"
+                   Margin="0,0,0,16" />
+
+        <!-- Session -->
+        <Border Style="{StaticResource StatsCard}">
+            <StackPanel>
+                <TextBlock Text="Session"
+                           Foreground="White"
+                           FontSize="18"
+                           FontWeight="Bold"
+                           Margin="0,0,0,10" />
+
+                <ComboBox x:Name="SessionSelectorComboBox"
+                          Foreground="White"
+                          SelectedIndex="0"
+                          SelectionChanged="OnSessionChanged"
+                          Margin="0,0,0,10">
+                    <ComboBoxItem Content="Default Session" />
+                </ComboBox>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Button x:Name="CreateSessionButton"
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            Content="New"
+                            Click="OnCreateSession"
+                            Margin="0,0,6,6"
+                            Padding="8,5" />
+
+                    <Button x:Name="DeleteSessionButton"
+                            Grid.Row="0"
+                            Grid.Column="1"
+                            Content="Delete"
+                            Click="OnDeleteSession"
+                            Margin="6,0,0,6"
+                            Padding="8,5" />
+
+                    <Button x:Name="RenameSessionButton"
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            Grid.ColumnSpan="2"
+                            Content="Rename"
+                            Click="OnRenameSession"
+                            Padding="8,5" />
+
+                    <Popup x:Name="SessionRenamePopup"
+                           PlacementTarget="{Binding ElementName=RenameSessionButton}"
+                           Placement="Bottom"
+                           StaysOpen="False"
+                           AllowsTransparency="True">
+                        <Border Background="#0D0D0D"
+                                BorderBrush="#2A2A2A"
+                                BorderThickness="1"
+                                CornerRadius="10"
+                                Padding="12"
+                                Width="270">
+                            <StackPanel>
+                                <TextBlock Text="Rename session"
+                                           Foreground="White"
+                                           FontSize="14"
+                                           FontWeight="SemiBold"
+                                           Margin="0,0,0,8" />
+
+                                <TextBox x:Name="SessionRenameInputTextBox"
+                                         Foreground="White"
+                                         Background="#0A0A0A"
+                                         BorderBrush="#2A2A2A"
+                                         Padding="8"
+                                         Margin="0,0,0,12" />
+
+                                <StackPanel Orientation="Horizontal"
+                                            HorizontalAlignment="Right">
+                                    <Button Content="Cancel"
+                                            Click="OnRenameCancel"
+                                            Padding="8,4"
+                                            Margin="0,0,8,0" />
+
+                                    <Button Content="Save"
+                                            Click="OnRenameConfirm"
+                                            Padding="8,4" />
+                                </StackPanel>
+                            </StackPanel>
+                        </Border>
+                    </Popup>
+
+                    <Popup x:Name="SessionDeletePopup"
+                           PlacementTarget="{Binding ElementName=DeleteSessionButton}"
+                           Placement="Bottom"
+                           StaysOpen="False"
+                           AllowsTransparency="True">
+                        <Border Background="#0D0D0D"
+                                BorderBrush="#2A2A2A"
+                                BorderThickness="1"
+                                CornerRadius="10"
+                                Padding="12"
+                                Width="250">
+                            <StackPanel>
+                                <TextBlock Text="Delete this session?"
+                                           Foreground="White"
+                                           FontSize="14"
+                                           FontWeight="SemiBold"
+                                           Margin="0,0,0,4" />
+
+                                <TextBlock Text="This will remove this session's solve history."
+                                           Foreground="#AFAFAF"
+                                           FontSize="12"
+                                           TextWrapping="Wrap"
+                                           Margin="0,0,0,12" />
+
+                                <StackPanel Orientation="Horizontal"
+                                            HorizontalAlignment="Right">
+                                    <Button Content="Cancel"
+                                            Click="OnDeleteCancel"
+                                            Padding="8,4"
+                                            Margin="0,0,8,0" />
+
+                                    <Button Content="Delete"
+                                            Click="OnDeleteConfirm"
+                                            Padding="8,4" />
+                                </StackPanel>
+                            </StackPanel>
+                        </Border>
+                    </Popup>
+                </Grid>
+            </StackPanel>
+        </Border>
+
+        <!-- Timer -->
+        <Border Style="{StaticResource StatsCard}">
+            <StackPanel>
+                <TextBlock Text="Timer"
+                           Foreground="White"
+                           FontSize="18"
+                           FontWeight="Bold"
+                           Margin="0,0,0,8" />
+
+                <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Center"
+                            Margin="0,2,0,4">
+                    <TextBlock x:Name="TrainerTimerValueTextBlock"
+                               Text="0.00"
+                               Foreground="White"
+                               FontSize="46"
+                               FontWeight="Bold" />
+
+                    <TextBlock x:Name="TimerDeltaTextBlock"
+                               Text=""
+                               Foreground="#AFAFAF"
+                               FontSize="18"
+                               FontWeight="SemiBold"
+                               VerticalAlignment="Center"
+                               Margin="8,10,0,0" />
+                </StackPanel>
+
+                <TextBlock x:Name="TimerAveragesTextBlock"
+                           Text="ao5: --    ao12: --"
+                           Foreground="#AFAFAF"
+                           FontSize="13"
+                           FontWeight="SemiBold"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,4" />
+
+                <TextBlock x:Name="TimerStatusTextBlock"
+                           Text="Hold Space to arm timer"
+                           Foreground="#AFAFAF"
+                           FontSize="12"
+                           FontWeight="SemiBold"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,14" />
+
+                <Grid Margin="0,10,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Grid.Row="0" Grid.Column="1" Text="Current" Style="{StaticResource StatsLabel}" HorizontalAlignment="Center" />
+                    <TextBlock Grid.Row="0" Grid.Column="2" Text="Best" Style="{StaticResource StatsLabel}" HorizontalAlignment="Center" />
+
+                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Time" Style="{StaticResource StatsLabel}" Margin="0,10,0,0" />
+                    <TextBlock Grid.Row="1" Grid.Column="1" x:Name="CurrentTimeValueTextBlock" Text="--" Style="{StaticResource StatsValue}" HorizontalAlignment="Center" />
+                    <TextBlock Grid.Row="1" Grid.Column="2" x:Name="BestTimeValueTextBlock" Text="--" Style="{StaticResource StatsValue}" HorizontalAlignment="Center" />
+
+                    <TextBlock Grid.Row="2" Grid.Column="0" Text="mo3" Style="{StaticResource StatsLabel}" Margin="0,10,0,0" />
+                    <TextBlock Grid.Row="2" Grid.Column="1" x:Name="CurrentMo3ValueTextBlock" Text="--" Style="{StaticResource StatsValue}" HorizontalAlignment="Center" />
+                    <TextBlock Grid.Row="2" Grid.Column="2" x:Name="BestMo3ValueTextBlock" Text="--" Style="{StaticResource StatsValue}" HorizontalAlignment="Center" />
+
+                    <TextBlock Grid.Row="3" Grid.Column="0" Text="ao3" Style="{StaticResource StatsLabel}" Margin="0,10,0,0" />
+                    <TextBlock Grid.Row="3" Grid.Column="1" x:Name="CurrentAo3ValueTextBlock" Text="--" Style="{StaticResource StatsValue}" HorizontalAlignment="Center" />
+                    <TextBlock Grid.Row="3" Grid.Column="2" x:Name="BestAo3ValueTextBlock" Text="--" Style="{StaticResource StatsValue}" HorizontalAlignment="Center" />
+
+                    <TextBlock Grid.Row="4" Grid.Column="0" Text="ao5" Style="{StaticResource StatsLabel}" Margin="0,10,0,0" />
+                    <TextBlock Grid.Row="4" Grid.Column="1" x:Name="CurrentAo5ValueTextBlock" Text="--" Style="{StaticResource StatsValue}" HorizontalAlignment="Center" />
+                    <TextBlock Grid.Row="4" Grid.Column="2" x:Name="BestAo5ValueTextBlock" Text="--" Style="{StaticResource StatsValue}" HorizontalAlignment="Center" />
+
+                    <TextBlock Grid.Row="5" Grid.Column="0" Text="ao12" Style="{StaticResource StatsLabel}" Margin="0,10,0,0" />
+                    <TextBlock Grid.Row="5" Grid.Column="1" x:Name="CurrentAo12ValueTextBlock" Text="--" Style="{StaticResource StatsValue}" HorizontalAlignment="Center" />
+                    <TextBlock Grid.Row="5" Grid.Column="2" x:Name="BestAo12ValueTextBlock" Text="--" Style="{StaticResource StatsValue}" HorizontalAlignment="Center" />
+                </Grid>
+            </StackPanel>
+        </Border>
+
+        <!-- Solve History -->
+        <Border Style="{StaticResource StatsCard}">
+            <StackPanel>
+                <DockPanel Margin="0,0,0,10">
+                    <TextBlock Text="Solve History"
+                               Foreground="White"
+                               FontSize="18"
+                               FontWeight="Bold"
+                               VerticalAlignment="Top"
+                               DockPanel.Dock="Left" />
+
+                    <TextBlock x:Name="SolveHistorySummaryValueTextBlock"
+                               Text="Solve: 0/0&#x0a;Mean: --"
+                               Foreground="#AFAFAF"
+                               FontSize="12"
+                               FontWeight="SemiBold"
+                               TextAlignment="Right"
+                               HorizontalAlignment="Right"
+                               DockPanel.Dock="Right" />
+                </DockPanel>
+
+                <DataGrid x:Name="SolveHistoryDataGrid"
+                          AutoGenerateColumns="False"
+                          CanUserAddRows="False"
+                          CanUserDeleteRows="False"
+                          IsReadOnly="True"
+                          HeadersVisibility="Column"
+                          GridLinesVisibility="Horizontal"
+                          RowBackground="#0D0D0D"
+                          AlternatingRowBackground="#050505"
+                          Background="#050505"
+                          Foreground="White"
+                          BorderBrush="#2A2A2A"
+                          BorderThickness="1"
+                          HorizontalGridLinesBrush="#151515"
+                          VerticalGridLinesBrush="#151515"
+                          MaxHeight="290">
+
+                    <DataGrid.Resources>
+                        <Style TargetType="{x:Type DataGridColumnHeader}">
+                            <Setter Property="Background" Value="#0D0D0D" />
+                            <Setter Property="Foreground" Value="White" />
+                            <Setter Property="BorderBrush" Value="#2A2A2A" />
+                            <Setter Property="FontWeight" Value="SemiBold" />
+                            <Setter Property="Padding" Value="8,6" />
+                        </Style>
+
+                        <Style TargetType="{x:Type DataGridCell}">
+                            <Setter Property="Foreground" Value="White" />
+                            <Setter Property="Background" Value="Transparent" />
+                            <Setter Property="BorderBrush" Value="#151515" />
+                            <Setter Property="Padding" Value="8,4" />
+                        </Style>
+                    </DataGrid.Resources>
+
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="#" Binding="{Binding Number}" Width="48" />
+                        <DataGridTextColumn Header="Time" Binding="{Binding Time}" Width="*" />
+                        <DataGridTextColumn Header="ao5" Binding="{Binding Ao5}" Width="*" />
+                        <DataGridTextColumn Header="ao12" Binding="{Binding Ao12}" Width="*" />
+                    </DataGrid.Columns>
+                </DataGrid>
+            </StackPanel>
+        </Border>
+    </StackPanel>
+</UserControl>

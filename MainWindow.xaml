@@ -1,0 +1,131 @@
+<mah:MetroWindow x:Class="CubeForge.MainWindow"
+                 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                 xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+                 xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+                 xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+                 xmlns:views="clr-namespace:CubeForge.Views"
+                 mc:Ignorable="d"
+                 Title="CubeForge"
+                 TitleCharacterCasing="Normal"
+                 WindowStartupLocation="CenterScreen"
+                 Height="700"
+                 Width="1100"
+                 Icon="Assets/CubeForge.ico"
+                 Style="{StaticResource MaterialDesignWindow}">
+
+    <mah:MetroWindow.LeftWindowCommands>
+        <mah:WindowCommands>
+            <Button Click="LaunchGitHubSite"
+                    ToolTip="Open up the GitHub site">
+                <iconPacks:PackIconModern Width="22"
+                                          Height="22"
+                                          Kind="SocialGithubOctocat" />
+            </Button>
+        </mah:WindowCommands>
+    </mah:MetroWindow.LeftWindowCommands>
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.ToggleButton.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <materialDesign:DrawerHost x:Name="DrawerHost"
+                               LeftDrawerBackground="{StaticResource PanelBrush}">
+
+        <!-- Left drawer / hamburger menu -->
+        <materialDesign:DrawerHost.LeftDrawerContent>
+            <StackPanel Width="240" Margin="12">
+
+                <ToggleButton Style="{StaticResource MaterialDesignHamburgerToggleButton}"
+                              IsChecked="{Binding IsLeftDrawerOpen, ElementName=DrawerHost}"
+                              HorizontalAlignment="Right"
+                              Foreground="{StaticResource AccentBrush}"
+                              Margin="0,0,0,16" />
+
+                <TextBlock Text="Trainers"
+                           Foreground="{StaticResource TextPrimaryBrush}"
+                           FontSize="18"
+                           FontWeight="SemiBold"
+                           Margin="0,0,0,12" />
+
+                <Button x:Name="CrossTrainerButton"
+						Content="Cross / X-Cross"
+						Click="CrossTrainer_Click"
+						Style="{StaticResource PrimaryButtonStyle}"
+						Margin="0,0,0,8" />
+
+				 <Button x:Name="F2LTrainerButton"
+						Content="F2L Trainer"
+						Click="F2LTrainer_Click"
+						Style="{StaticResource PrimaryButtonStyle}"
+						Margin="0,0,0,8" />
+
+			 	 <Button x:Name="OLLTrainerButton"
+						Content="OLL Trainer"
+						Click="OLLTrainer_Click"
+						Style="{StaticResource PrimaryButtonStyle}"
+						Margin="0,0,0,8" />
+
+		  		 <Button x:Name="PLLTrainerButton"
+						Content="PLL Trainer"
+						Click="PLLTrainer_Click"
+						Style="{StaticResource PrimaryButtonStyle}"
+						Margin="0,0,0,8" />
+
+				 <Separator Margin="0,12,0,12" />
+
+				 <Button x:Name="SettingsButton"
+						Content="Settings"
+						Click="Settings_Click"
+						Style="{StaticResource PrimaryButtonStyle}" />
+
+            </StackPanel>
+        </materialDesign:DrawerHost.LeftDrawerContent>
+
+        <!-- Main app shell -->
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <!-- Top header -->
+            <Border Grid.Row="0"
+                    Padding="8"
+                    Background="{StaticResource CardBrush}">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <ToggleButton Style="{StaticResource MaterialDesignHamburgerToggleButton}"
+                                  IsChecked="{Binding IsLeftDrawerOpen, ElementName=DrawerHost}"
+                                  HorizontalAlignment="Left"
+                                  VerticalAlignment="Center"
+                                  Foreground="{StaticResource AccentBrush}" />
+
+                    <TextBlock x:Name="PageTitleTextBlock"
+                               Grid.Column="1"
+                               Text="Cross / X-Cross Trainer"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"
+                               FontSize="18"
+                               FontWeight="SemiBold"
+                               Foreground="{StaticResource AccentBrush}" />
+                </Grid>
+            </Border>
+
+            <!-- Current trainer page gets loaded here -->
+            <ContentControl x:Name="TrainerContentControl"
+                            Grid.Row="1" />
+        </Grid>
+
+    </materialDesign:DrawerHost>
+</mah:MetroWindow>
