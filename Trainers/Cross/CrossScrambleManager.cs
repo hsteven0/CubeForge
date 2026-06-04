@@ -52,14 +52,18 @@ namespace CubeForge.Trainers.Cross
         public FastCubeState? ScrambledFastState { get; private set; }
         public string AppliedScrambleText { get; private set; } = "";
 
-        public CrossScrambleResult Generate(NCrossTarget resolvedTarget)
+        public Task<CrossScrambleResult> GenerateAsync(NCrossTarget resolvedTarget)
         {
             string generationMode = CrossTargetManager.GetComboBoxText(generationModeComboBox, "Guaranteed solution");
 
             if (generationMode != "Guaranteed solution")
-                return new CrossScrambleResult(Scrambler.GenerateScramble(20), new List<SearchMove>());
+                return Task.FromResult(new CrossScrambleResult(Scrambler.GenerateScramble(20), new List<SearchMove>()));
 
-            return GenerateGuaranteed(resolvedTarget);
+            int maxDepth = GetMaxDepth();
+            int minScrambleLength = GetMinScrambleLength();
+            int minSolutionLength = GetMinSolutionLength();
+
+            return Task.Run(() => GenerateGuaranteed(resolvedTarget, maxDepth, minScrambleLength, minSolutionLength));
         }
 
         public void Clear()
@@ -170,12 +174,9 @@ namespace CubeForge.Trainers.Cross
             }
         }
 
-        private CrossScrambleResult GenerateGuaranteed(NCrossTarget resolvedTarget)
+        private CrossScrambleResult GenerateGuaranteed(NCrossTarget resolvedTarget, int maxDepth, int minScrambleLength, int minSolutionLength)
         {
             EnsurePruningTablesLoaded(resolvedTarget);
-
-            int maxDepth = GetMaxDepth();
-            int minScrambleLength = GetMinScrambleLength();
 
             for (int attempt = 1; attempt <= 500; attempt++)
             {
@@ -185,7 +186,7 @@ namespace CubeForge.Trainers.Cross
                 test.SetSolved();
 
                 foreach (ParsedMove move in ScrambleParser.Parse(candidate))
-                    test.ApplyMove(cube.Cube.CurrentOrientation.ToBaseMove(move));
+                    test.ApplyMove(resolvedTarget.Orientation.ToBaseMove(move));
 
                 NCrossSearchResult result = NCrossSearcher.Solve(test, resolvedTarget, maxDepth);
 
@@ -195,7 +196,7 @@ namespace CubeForge.Trainers.Cross
                 if (result.Solution.Count == 0)
                     continue;
 
-                if (result.Solution.Count < GetMinSolutionLength())
+                if (result.Solution.Count < minSolutionLength)
                     continue;
 
                 if (ScrambleParser.Parse(candidate).Count < minScrambleLength)

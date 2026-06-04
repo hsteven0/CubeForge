@@ -95,15 +95,18 @@ namespace CubeForge.Cube.FastState
 
         public static bool Load(NCrossTarget target, F2LSlot slot, string filePath, MoveSet moveSet)
         {
+            string tableKey = GetTableKey(target, slot, moveSet);
+
+            if (cache.ContainsKey(tableKey) && depths.ContainsKey(tableKey))
+                return true;
+
             if (!PruningTableCompressor.Exists(filePath))
                 return false;
-
-            string tableKey = GetTableKey(target, slot, moveSet);
 
             try
             {
                 using Stream stream = PruningTableCompressor.OpenRead(filePath);
-                using BinaryReader reader = new BinaryReader(stream);
+                using BinaryReader reader = new(stream);
 
                 string fileTableKey = reader.ReadString();
 

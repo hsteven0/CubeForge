@@ -32,7 +32,7 @@ namespace CubeForge.Views
             TargetSlot3ComboBox.SelectionChanged += OnTrainerChanged;
         }
 
-        private void OnGenerateScramble(object sender, RoutedEventArgs e)
+        private async void OnGenerateScramble(object sender, RoutedEventArgs e)
         {
             solution.Stop();
 
@@ -40,9 +40,12 @@ namespace CubeForge.Views
             currentTrainingType = target.GetSelectedTrainingType();
             ApplySelectedDisplayMode();
 
+            GenerateScrambleButton.IsEnabled = false;
+            GenerateScrambleButton.Content = "Generating...";
+
             try
             {
-                CrossScrambleResult result = scramble.Generate(currentTarget);
+                CrossScrambleResult result = await scramble.GenerateAsync(currentTarget);
                 currentScramble = result.Scramble;
                 guaranteedSolution = result.GuaranteedSolution;
             }
@@ -55,6 +58,11 @@ namespace CubeForge.Views
                 solution.Hide();
                 UpdatePracticePanel();
                 return;
+            }
+            finally
+            {
+                GenerateScrambleButton.IsEnabled = true;
+                GenerateScrambleButton.Content = "Generate";
             }
 
             ScrambleTextBlock.Text = currentScramble;
@@ -107,7 +115,6 @@ namespace CubeForge.Views
             try
             {
                 currentTarget = target.CreateTarget();
-                scramble.EnsurePruningTablesLoaded(currentTarget);
 
                 List<SearchMove> solutionMoves;
 
@@ -117,6 +124,8 @@ namespace CubeForge.Views
                 }
                 else
                 {
+                    scramble.EnsurePruningTablesLoaded(currentTarget);
+
                     int maxDepth = target.GetSelectedSolutionLength();
 
                     NCrossSearchResult result = NCrossSearcher.Solve(cube.FastCube.Clone(), currentTarget, maxDepth);
